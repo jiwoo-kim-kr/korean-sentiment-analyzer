@@ -1,0 +1,30 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# NLP and text processing
+nltk>=3.6.0
+konlpy>=0.6.0
+mecab-python3>=1.0.0
+
+# Deep learning (for transformer models)
+torch>=1.9.0
+transformers>=4.11.0
+
+# Korean language models
+# Note: KLUE models can be loaded directly via transformers
+
+# Data visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Utilities
+tqdm>=4.62.0
+click>=8.0.0
+
+# Development and testing
+pytest>=6.2.0
+pytest-cov>=2.12.0
+black>=21.0.0
+flake8>=3.9.0
